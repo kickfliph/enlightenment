@@ -27,7 +27,5 @@ do
  cd ..
 done 
 
-sudo cp /opt/enlightenment/e-xsession.desktop /usr/share/xsessions/
+sudo ln -s /usr/local/share/xsessions/enlightenment.desktop /usr/share/xsessions/enlightenment.desktop
 sudo /etc/init.d/lightdm restart
-
-
